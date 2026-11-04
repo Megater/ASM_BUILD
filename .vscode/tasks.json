@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Uruchom w DOSBox",
+            "type": "shell",
+            "command": "nasm -f bin \"${file}\" -o /tmp/out.com && dosbox /tmp/out.com",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent"
+            }
+        }
+    ]
+}
