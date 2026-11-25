@@ -164,10 +164,17 @@ end:
 
 section .data
     text times 50 db 0
+
     todo db 13, 10, 13, 10, "Insert string to change: $"
+
     endline db 13, 10, 13, 10, "End of the program!$"
+
     letterline db 13, 10, "Insert sign to start the string: $"
+
     changedline db 13, 10, 13, 10, "Changed string: $"
+
     wrongmes db 13, 10, 13, 10, "Wrong input!$"
+    
     luck_of_sign db 13, 10, 13, 10, "String does not contan this sign!$"
+
     warningmes db 13, 10, 13, 10, "You did not write any sign!$"
